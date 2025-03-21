@@ -13,7 +13,7 @@ import pandas as pd
 # -----------------------------------------------------------------------------
 # CONFIGURACIÓN
 # -----------------------------------------------------------------------------
-API_URL = "http://127.0.0.1:8000"  # <--- Ajusta a tu URL, por ejemplo: "https://fca1-194-209-94-51.ngrok-free.app"
+API_URL = "http://34.70.250.5"  # <--- Ajusta a tu URL, por ejemplo: "https://fca1-194-209-94-51.ngrok-free.app"
 
 st.title("🌍 Dashboard con FastAPI (Backend) + Streamlit (Frontend)")
 

@@ -27,11 +27,12 @@ logger = logging.getLogger(__name__)
 # -----------------------------------------------------------------------------
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],       # Acepta cualquier origen
+    allow_origins=[""],       # Acepta cualquier origen
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=[""],       # Acepta cualquier método
     allow_headers=["*"],
 )
+
 
 # -----------------------------------------------------------------------------
 # FUNCIONES AUXILIARES
