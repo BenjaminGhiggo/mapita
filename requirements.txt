@@ -9,3 +9,7 @@ plotly
 fastapi
 uvicorn
 requests
+ee
+windows-curses
+geemap
+earthengine-api
