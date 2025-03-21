@@ -6,4 +6,6 @@ folium
 streamlit-folium
 matplotlib
 plotly
-
+fastapi
+uvicorn
+requests
